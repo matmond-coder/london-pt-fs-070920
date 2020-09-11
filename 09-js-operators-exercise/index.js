@@ -6,7 +6,13 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let num1 = 1;
+let num2 = 2;
 
+const sum = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(sum(num1, num2));
 /**
  * Exercise #2
  *
@@ -16,7 +22,14 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let minuend = 10;
+let subtrahend = 3;
 
+const subtract = (minuend, subtrahend) => {
+  return minuend - subtrahend;
+};
+
+console.log(subtract(minuend, subtrahend));
 /**
  * Exercise #3
  *
@@ -25,7 +38,14 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let factors1 = 5;
+let factors2 = 4;
 
+const multiply = (factors1, factors2) => {
+  return factors1 * factors2;
+};
+
+console.log(multiply(factors1, factors2));
 /**
  * Exercise #4
  *
@@ -35,7 +55,14 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let dividend = 49;
+let divisor = 7;
 
+const divide = (dividend, divisor) => {
+  return dividend / divisor;
+};
+
+console.log(divide(dividend, divisor));
 /**
  * Exercise #5
  *
@@ -45,7 +72,14 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+dividend = 18;
+divisor = 8;
 
+const getRemainder = (dividend, divisor) => {
+  return dividend % divisor;
+};
+
+console.log(getRemainder(dividend, divisor));
 /**
  * Exercise #6
  *
@@ -54,7 +88,13 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let number = 13;
 
+const increment = (number) => {
+  return (number += 1);
+};
+
+console.log(increment(number));
 /**
  * Exercise #7
  *
@@ -63,3 +103,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+let figure = 13;
+
+const decrement = (figure) => {
+  return (figure -= 1);
+};
+
+console.log(decrement(figure));
