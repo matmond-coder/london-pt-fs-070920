@@ -1,0 +1,166 @@
+.main {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.wave {
+  background: url("https://www.methodspace.com/wp-content/uploads/2020/04/wave-1817646_1920.png");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav_list li {
+  color: #fff;
+  margin-right: 1em;
+  padding: 1em 0;
+}
+
+.nav_list li.active {
+  position: relative;
+}
+
+.nav_list li.active::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #198d19;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  position: absolute;
+}
+
+.nav_list li.active:hover::after {
+  width: 50%;
+}
+
+.content {
+  z-index: 1;
+  color: #fff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: enter;
+  width: 90%;
+  margin: 0 auto;
+}
+/*
+.why_learn_to_code_HTML {
+  list-style-type: none;
+  color: #000;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.why_learn_to_code_HTML li:first-child {
+  color: #fff;
+  vertical-align: center;
+  border: 1px solid #000;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4527156.jpg");
+}
+
+.why_learn_to_code_HTML li:nth-child(2) {
+  margin: 0.5em;
+  padding: 0.5em;
+
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.why_learn_to_code_HTML li:nth-child(3) {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.why_learn_to_code_CSS {
+  list-style-type: none;
+  color: #000;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.why_learn_to_code_CSS li:first-child {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #008000;
+  font-weight: bold;
+}
+
+.why_learn_to_code_CSS li:nth-child(2) {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.why_learn_to_code_CSS li:nth-child(3) {
+  color: #fff;
+  vertical-align: center;
+  border: 1px solid #000;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4527156.jpg");
+}
+*/
+
+.HTML {
+  display: flex;
+}
+
+.why_learn_to_code_HTML {
+  width: 50%;
+  color: white;
+}
+
+.HTML .why_learn_to_code_HTML {
+  background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4527156.jpg");
+}
+
+.HTML .text {
+  width: 50%;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.CSS .why_learn_to_code_CSS {
+  width: 50%;
+  color: #008000;
+  font-weight: bold;
+
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.coding_cards {
+  display: flex;
+  justify-content: center;
+}
+
+div.coding {
+  margin: 2px;
+  margin: 3em;
+}
